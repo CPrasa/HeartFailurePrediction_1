@@ -1,8 +1,8 @@
-Cardiovascular diseases (CVDs) are a major contributor to global mortality, comprising 
-31% of all fatalities. Early detection and management are crucial for heart failure, a 
-common consequence of CVDs. This initiative focuses on utilizing machine learning to 
-forecast heart failure using an 12-feature dataset.
+# Heart Failure Prediction
+![image](https://github.com/CPrasa/Heart-Failure-Prediction/assets/121708803/75d2c103-399a-4e64-8cf5-a8c8eb2e4134)
 
-If we can identify problems of the heart before coming to sudden death, it should help to protect so many lives.
-Therefore, it is very important to identify symptoms which can’t feel for the patient until it come like sudden attack.
-Because of that, computing those things to find solution to identify heart problems is best way to prevent sudden deaths. 
+## Overview
+This project uses logistic regression to predict heart failure based on a dataset with various health-related features. The model is trained using the scikit-learn library.
+
+## Dataset
+The dataset used for this project is stored in a CSV file (`heart.csv`). It includes information about individuals' health, and the goal is to predict the presence or absence of heart disease.
